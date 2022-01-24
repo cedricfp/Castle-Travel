@@ -4,7 +4,7 @@
 
 Pour cet exercice, tu dois intégrer un site web sur la base des maquettes ci-dessous. Pour cela, complète les fichiers **index.html** et **style.css**.
 
-Les ressources nécessaires comme les images ou les polices sont déjà présentes dans le dossier "assets" (il vous suffit de les utiliser).
+Les ressources nécessaires comme les images ou les polices sont déjà présentes dans le dossier "assets" (il te suffit de les utiliser).
 
 Les icones sont déjà importées depuis Material Icons dans le fichier HTML. Pour les utiliser, vous pouvez consulter la [librairie d'icônes](https://fonts.google.com/icons).
 
