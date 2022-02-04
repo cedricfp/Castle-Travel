@@ -6,7 +6,7 @@ Pour cet exercice, tu dois intégrer un site web sur la base des maquettes ci-de
 
 Les ressources nécessaires comme les images ou les polices sont déjà présentes dans le dossier "assets" (il te suffit de les utiliser).
 
-Les icones sont déjà importées depuis Material Icons dans le fichier HTML. Pour les utiliser, vous pouvez consulter la [librairie d'icônes](https://fonts.google.com/icons).
+Les icones sont déjà importées depuis Material Icons dans le fichier HTML. Pour les utiliser, tu peux consulter la [librairie d'icônes](https://fonts.google.com/icons).
 
 Attention, ton site web devra être _responsive_ pour s'adapter aux différentes résolutions d'écrans conformément aux maquettes.
 
