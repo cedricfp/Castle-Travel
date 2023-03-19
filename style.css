@@ -31,3 +31,416 @@
 }
 
 /* A FAIRE: Implémenter le style de la page selon la maquette */
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+#page {
+  background-color: #1f1f1f;
+  color: #fff;
+
+}
+
+.carré{
+  width: 8px;
+  height: 8px;
+  background: #ecd537;
+}
+
+
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 7px solid #ecd537;
+}
+
+#headerLogo{
+  margin: 10px 20px;
+}
+
+header img{
+  width: 150px;
+}
+nav{
+  width: 35%;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+
+
+
+
+#discover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/altenstein-castle.jpg");
+  background-position: center;
+  height: 42rem;
+}
+
+#discover-text{
+  padding-top: 15%;
+  text-align: center;
+}
+
+#discover-text p{
+  font-size: 20px;
+  margin: 0;
+}
+
+#discover-text h1{
+  font-family: "Moon Dance";
+  font-size: 6rem;
+  margin: 0 0 20px;
+}
+
+#discover-text button{
+  padding: 10px 20px;
+  background-color: #ecd537;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+
+
+#concept .concept-titre, #chateaux .chateaux-titre, footer .footer-titre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#concept .concept-titre h3, #chateaux .chateaux-titre h3, footer .footer-titre h3{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#concept .concept-marge{
+  transform-origin:0 50%;
+  transform:rotate(-90deg) translate(-50%, 50%);
+  position:absolute;
+  left: -130px;
+  font-family: "Moon Dance";
+  font-size: 6rem;
+  color:#2f2e30;
+  
+}
+
+.card{
+  margin: 10px 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.concept-card{
+  text-align: center;
+  background-color: #FFF;
+  color: black;
+  padding: 40px 20px 0;
+  height: 8rem;
+  width: 19%;
+  border-radius: 10px;
+}
+
+.concept-card p{
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.concept-card .material-symbols-outlined{
+  font-size: 45px ;
+  margin-bottom: 15px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+
+
+
+#chateaux .chateaux-marge{
+  transform-origin:0 50%;
+  transform:rotate(-90deg) translate(-50%, 50%);
+  position:absolute;
+  margin-top: 150px;
+  right: -230px;
+  font-family: "Moon Dance";
+  font-size: 6rem;
+  color:#2f2e30;
+}
+
+#chateaux .chateaux-marge p{
+  margin-block-end: 0;
+}
+
+.chateaux-ligne1, .chateaux-ligne2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 5rem;
+  margin-bottom: 10px;
+}
+
+.chateaux-ligne2 img{
+  height: 12rem;
+}
+
+.chateaux-ligne1 img{
+  width: 22%;
+}
+
+.chateaux-ligne2 .neuschwanstein{
+  width: 22%;
+}
+
+.chateaux-ligne2 .versailles{
+  width: 26%;
+}
+
+.chateaux-ligne2 .eilean-donan{
+  width: 43%;
+  
+}
+
+
+
+
+.footer-marge{
+  transform-origin:0 50%;
+  transform:rotate(-90deg) translate(-50%, 50%);
+  position:absolute;
+  left: -130px;
+  font-family: "Moon Dance";
+  font-size: 6rem;
+  color:#2f2e30;
+}
+
+.footer-tel, .footer-mail, .footer-location{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 40%;
+}
+
+.footer-tel p, .footer-mail p, .footer-location p{
+  margin-left: 15px;
+}
+
+.footer-tel .material-symbols-outlined, .footer-mail .material-symbols-outlined, .footer-location .material-symbols-outlined {
+  background-color: #FFF;
+  border-radius: 5px;
+  color: #1f1f1f;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.footer-copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+
+@media screen and (min-width : 820px) and (max-width : 1512px)
+{
+
+  nav{
+    width: 65%;
+    
+  }
+
+  #discover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/altenstein-castle.jpg");
+    background-position: center;
+    box-sizing: border-box;
+    height: 42rem;
+  }
+
+  .card{
+    margin: 10px 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .concept-card{
+    text-align: center;
+    background-color: #FFF;
+    color: black;
+    padding: 40px 20px 0;
+    height: 13rem;
+    width: 19%;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  #chateaux .chateaux-marge{
+    transform-origin:0 50%;
+    transform:rotate(-90deg) translate(-50%, 50%);
+    position:absolute;
+    margin-top: 150px;
+    right: -200px;
+    font-family: "Moon Dance";
+    font-size: 6rem;
+    color:#2f2e30;
+  }
+
+  .chateaux-ligne1, .chateaux-ligne2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 5rem;
+    margin-bottom: 10px;
+  }
+
+  .chateaux-ligne1 .altenstein, .chateaux-ligne1 .hluboka{
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  .chateaux-ligne1 .chambord, .chateaux-ligne1 .hogwarts{
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  .chateaux-ligne2 .neuschwanstein{
+    width: 40%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+  }
+  
+  .chateaux-ligne2 .versailles{
+    width: 40%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  
+  .chateaux-ligne2 .eilean-donan{
+    width: 80%;
+  }
+
+  .footer-tel, .footer-mail, .footer-location{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 25%;
+  }
+
+}
+
+@media screen and (min-width : 390px) and (max-width : 819px)
+{
+  header {
+    display: block;
+    width: 100%;
+    align-items: center;
+    border-top: 7px solid #ecd537;
+  }
+
+  #headerLogo{
+    margin: 10px 20px;
+    text-align: center;
+  }
+
+  nav{
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav .carré{
+    margin-left: 50%;
+  }
+
+  .card{
+    margin: 10px 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .concept-card{
+    text-align: center;
+    background-color: #FFF;
+    color: black;
+    padding: 40px 20px 0;
+    height: 13rem;
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  #chateaux .chateaux-marge{
+    transform-origin:0 50%;
+    transform:rotate(-90deg) translate(-50%, 50%);
+    position:absolute;
+    margin-top: 150px;
+    right: -130px;
+    font-family: "Moon Dance";
+    font-size: 4rem;
+    color:#2f2e30;
+  }
+
+  .chateaux-ligne1, .chateaux-ligne2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 5rem;
+    margin-bottom: 10px;
+  }
+
+  .chateaux-ligne1 .altenstein, .chateaux-ligne1 .hluboka, .chateaux-ligne1 .chambord, .chateaux-ligne1 .hogwarts, .chateaux-ligne2 .neuschwanstein, .chateaux-ligne2 .versailles{
+    width: 120%;
+    margin-bottom: 40px;
+  }
+
+
+  
+  .chateaux-ligne2 .eilean-donan{
+    width: 140%;
+  }
+
+  .footer-tel, .footer-mail, .footer-location{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 17%;
+  }
+
+}
+
